@@ -36,9 +36,17 @@ hello-world/
 # Install the Wasmtime CLI
 `curl https://wasmtime.dev/install.sh -sSf | bash`
 
-Wasmtime is a standalone runtime for WebAssembly
+Wasmtime is a standalone runtime for WebAssembly.
+Wasmtime is a runtime for __executing__ WebAssembly
 More info here: https://github.com/bytecodealliance/wasmtime
 
 
 # Use Wasmtime CLI to execute the `.wasm` file (WebAssembly file)
 `wasmtime target/wasm32-wasi/debug/hello-world.wasm`
+
+
+# How to create a WebAssembly Module
+Rust: https://docs.wasmtime.dev/wasm-rust.html
+C/C++: https://docs.wasmtime.dev/wasm-c.html
+AS: https://docs.wasmtime.dev/wasm-assemblyscript.html
+  - https://www.assemblyscript.org/

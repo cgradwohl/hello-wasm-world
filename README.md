@@ -50,3 +50,15 @@ Rust: https://docs.wasmtime.dev/wasm-rust.html
 C/C++: https://docs.wasmtime.dev/wasm-c.html
 AS: https://docs.wasmtime.dev/wasm-assemblyscript.html
   - https://www.assemblyscript.org/
+
+# Using WebAssembly from another language application
+Wasmtime can be used as a library to embed WebAssembly execution support within applications.
+Wasmtime is written in Rust, but bindings are available through a C API for a number of other languages too:
+- Rust
+- C
+- Python
+- .NET
+- Go
+- Bash
+
+This means you can import and consume WebAssembly modules, from other language applications.
